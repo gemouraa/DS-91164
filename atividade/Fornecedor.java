@@ -25,11 +25,5 @@ public abstract class Fornecedor {
         this.modelo = modelo;
     }
 
-    @Override
-    public String toString() {
-        return "fornecedor [marca=" + marca + ", modelo=" + modelo + ", getMarca()=" + getMarca() + ", getModelo()="
-                + getModelo() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
-                + super.toString() + "]";
-    }
-
+   
 }
